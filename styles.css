@@ -1,0 +1,150 @@
+/* Reset some basic elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Container for consistent padding */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Styling */
+header {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    padding: 5px 0; 
+}
+
+header h1 {
+    float: left;
+    margin-right: 80px; 
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-weight: 400; /* Semi-bold */
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex; 
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 400; /* Regular weight */
+    font-family: 'Inter', sans-serif;
+}
+
+header nav .nav-icons {
+    display: flex;
+    align-items: center; /* Align icons vertically centered */
+}
+
+header nav .search-icon,
+header nav .login-icon {
+    height: 24px; 
+    margin-left: 20px; 
+}
+
+/* Main Content Styling */
+main {
+    padding: 40px 0;
+    background-color: #0d0c0c; 
+    position: relative; 
+}
+
+/* Background Image Styling */
+.background-img {
+    position: absolute; 
+    top: 0;
+    right: 20%; 
+    transform: translateX(50%); 
+    width: 50%; 
+    height: auto; 
+    z-index: 1; 
+}
+
+/* Content Overlay Styling */
+.content-overlay {
+    position: relative; 
+    display: flex;
+    align-items: center; 
+    padding-right: 60%;
+}
+
+/* Side Images Styling */
+.side-images {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin-left: 40px; 
+    margin-top: -300px; 
+}
+
+.side-images .icon {
+    width: 30px; 
+    height: 30px; 
+    margin-bottom: 10px; 
+}
+
+.text-overlay {
+    color: #fff9f9;
+    padding-left: 50px;
+}
+
+.text-overlay h2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 4em; /* Adjust size as needed */
+}
+
+.text-overlay .highlight {
+    color: blue; /* Set the color for the word 'Future' */
+}
+
+.text-overlay h5 {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.2em; 
+    font-weight: 300; 
+    margin: 0; 
+    padding: 0; 
+}
+
+.text-overlay p {
+    margin: 0; /* Remove default margins from paragraphs */
+    color: rgb(141, 148, 158);
+}
+
+.text-overlay .link-icon {
+    margin-top: 40px;
+    margin-bottom: 95px;
+    display: block;
+    width: 150px; /* Adjust size as needed */
+    height: auto;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #e5cccc;
+    color: #333;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
